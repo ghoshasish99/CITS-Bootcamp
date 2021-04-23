@@ -1,0 +1,23 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: CmdLine@2
+  inputs:
+     script: 'chmod -R 755 ./'
+  displayName: 'Set Permissions'
+
+- task: CmdLine@2
+  inputs:
+      script: './Run.command -run -project_location $(ProjectLocation) -release $(ReleaseName) -testset $(TestSetName)'
+      workingDirectory: '$(System.DefaultWorkingDirectory)'
+  displayName: 'Execute CITS Test'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+       PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(ProjectLocation)/Results/TestExecution/$(ReleaseName)/$(TestSetName)'
+       ArtifactName: 'drop'
+       publishLocation: 'Container'
