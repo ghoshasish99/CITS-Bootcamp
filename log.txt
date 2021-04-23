@@ -1,0 +1,123 @@
+2021-04-23 22:42:05:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2021-04-23 22:42:06:04S +0200 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\LA56QS\CITS-Bootcamp\lib\cognizant-intelligent-test-scripter-engine-1.2.jar
+2021-04-23 22:42:10:04S +0200 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2021-04-23 22:43:00:04S +0200 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2021-04-23 22:43:00:04S +0200 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\TestLab\NewRelease\NewTestSet.csv] doesn't exist
+2021-04-23 22:43:13:086 +0200 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.util.log - Logging initialized @67992ms to org.eclipse.jetty.util.log.Slf4jLog
+jar:file:/C:/Users/LA56QS/CITS-Bootcamp/lib/cognizant-intelligent-test-scripter-extensionconnect-1.2.jar!/localhost
+2021-04-23 22:43:13:04S +0200 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2021-04-23 22:43:13:04S +0200 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2021-04-23 22:43:13:313 +0200 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2021-04-23 22:43:13:419 +0200 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2021-04-23 22:43:13:420 +0200 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2021-04-23 22:43:13:422 +0200 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2021-04-23 22:43:13:434 +0200 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3e6807d{/,null,AVAILABLE}
+2021-04-23 22:43:13:519 +0200 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@2e80ccaa(localhost,h=[localhost],w=[]) for SslContextFactory@21ac12dd(jar:file:/C:/Users/LA56QS/CITS-Bootcamp/lib/cognizant-intelligent-test-scripter-extensionconnect-1.2.jar!/localhost,null)
+2021-04-23 22:43:17:213 +0200 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@6813a8d4{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2021-04-23 22:43:17:214 +0200 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @72123ms
+2021-04-23 22:43:38:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Browser[null] - Open - @https://opensource-demo.orangehrmlive.com/index.php/auth/login
+2021-04-23 22:43:40:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Username
+2021-04-23 22:43:40:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Username] - Click - null
+2021-04-23 22:43:45:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : txtUsername
+2021-04-23 22:43:45:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[txtUsername] - Set - @Admin
+2021-04-23 22:43:45:04S +0200 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : OrangeHRM
+Object : txtUsername
+2021-04-23 22:43:45:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[txtUsername] - Set - @Admin
+2021-04-23 22:43:47:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : txtPassword
+2021-04-23 22:43:47:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[txtPassword] - Click - null
+2021-04-23 22:43:54:04S +0200 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : OrangeHRM
+Object : txtPassword
+2021-04-23 22:43:54:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[txtPassword] - setEncrypted - @admin123
+2021-04-23 22:43:54:04S +0200 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : OrangeHRM
+Object : txtPassword
+2021-04-23 22:43:54:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[txtPassword] - setEncrypted - @admin123
+2021-04-23 22:43:54:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : LOGIN
+2021-04-23 22:43:54:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[LOGIN] - Click - null
+2021-04-23 22:44:10:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Welcome Sai
+2021-04-23 22:44:10:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Welcome Sai] - assertElementTextContains - @Welcome Sai
+2021-04-23 22:44:41:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : My Info
+2021-04-23 22:44:41:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[My Info] - Click - null
+2021-04-23 22:44:51:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Edit
+2021-04-23 22:44:51:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Edit] - Click - null
+2021-04-23 22:45:08:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : personal[cmbNation]
+2021-04-23 22:45:08:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[personal[cmbNation]] - selectByVisibleText - @Indian
+2021-04-23 22:45:20:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : First Name
+2021-04-23 22:45:20:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[First Name] - Click - null
+2021-04-23 22:45:21:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Full Name * First Name Middle
+2021-04-23 22:45:21:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Full Name * First Name Middle] - selectValueFromUnorderedList - @Full Name * First Name Middle Name * Last Name
+2021-04-23 22:45:28:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : First Name1
+2021-04-23 22:45:28:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[First Name1] - Set - @Ashish
+2021-04-23 22:45:28:04S +0200 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : OrangeHRM
+Object : First Name1
+2021-04-23 22:45:28:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[First Name1] - Set - @Ashish
+2021-04-23 22:45:28:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Middle Name
+2021-04-23 22:45:28:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Middle Name] - Click - null
+2021-04-23 22:45:31:04S +0200 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : OrangeHRM
+Object : Middle Name
+2021-04-23 22:45:31:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Middle Name] - clear - null
+2021-04-23 22:45:33:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Last Name
+2021-04-23 22:45:33:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Last Name] - Click - null
+2021-04-23 22:45:39:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Last Name1
+2021-04-23 22:45:39:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Last Name1] - Set - @Ghosh
+2021-04-23 22:45:39:04S +0200 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : OrangeHRM
+Object : Last Name1
+2021-04-23 22:45:39:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Last Name1] - Set - @Ghosh
+2021-04-23 22:45:54:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Save
+2021-04-23 22:45:54:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Save] - Click - null
+2021-04-23 22:46:53:04S +0200 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : OrangeHRM
+Object : Welcome Sai
+2021-04-23 22:46:53:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Welcome Sai] - Click - null
+2021-04-23 22:46:55:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Logout
+2021-04-23 22:46:55:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Logout] - Click - null
+2021-04-23 22:47:10:601 +0200 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@6813a8d4{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2021-04-23 22:47:10:603 +0200 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2021-04-23 22:47:10:610 +0200 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3e6807d{/,null,UNAVAILABLE}
+jar:file:/C:/Users/LA56QS/CITS-Bootcamp/lib/cognizant-intelligent-test-scripter-extensionconnect-1.2.jar!/localhost
+2021-04-23 22:47:10:04S +0200 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2021-04-23 22:57:24:04S +0200 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\TestPlan\NewScenario\NewTestCase0.csv] doesn't exist
+2021-04-23 23:00:41:04S +0200 [INFO] com.cognizant.cognizantits.ide.main.mainui.components.testdesign.tree.ProjectTree deleteTestCases:Delete TestCases approved for 1; [NewTestCase0]
+2021-04-23 23:02:02:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\Welcome Sai Renamed to Welcome
+2021-04-23 23:02:02:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\Welcome\Welcome Sai Renamed to Welcome
+2021-04-23 23:07:40:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\TestPlan\NewScenario Renamed to OrangeHRM
+2021-04-23 23:07:40:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring started for Scenario [NewScenario] to [OrangeHRM]
+2021-04-23 23:07:40:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring done for Scenario [NewScenario] to [OrangeHRM]
+2021-04-23 23:07:49:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\TestPlan\OrangeHRM\NewTestCase.csv Renamed to EditInfo.csv
+2021-04-23 23:07:49:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [EditInfo]
+2021-04-23 23:07:49:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [EditInfo]
+2021-04-23 23:08:24:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\Username\Username
+2021-04-23 23:08:24:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\Username
+2021-04-23 23:08:29:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\txtUsername Renamed to Username
+2021-04-23 23:08:29:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\Username\txtUsername Renamed to Username
+2021-04-23 23:08:35:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\txtPassword Renamed to Password
+2021-04-23 23:08:35:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\Password\txtPassword Renamed to Password
+2021-04-23 23:08:48:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\LOGIN Renamed to [Login] Button
+2021-04-23 23:08:48:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\[Login] Button\LOGIN Renamed to [Login] Button
+2021-04-23 23:08:53:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\Welcome Renamed to Welcome Text
+2021-04-23 23:08:53:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\Welcome Text\Welcome Renamed to Welcome Text
+2021-04-23 23:09:22:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\personal[cmbNation] Renamed to [Nationality] Dropdown
+2021-04-23 23:09:22:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\[Nationality] Dropdown\personal[cmbNation] Renamed to [Nationality] Dropdown
+2021-04-23 23:09:53:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\Last Name1\Last Name1
+2021-04-23 23:09:53:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\Last Name1
+2021-04-23 23:10:11:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\First Name1\First Name1
+2021-04-23 23:10:11:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\ObjectRepository\OrangeHRM\First Name1
+2021-04-23 23:14:07:04S +0200 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\LA56QS\CITS-Bootcamp\lib\cognizant-intelligent-test-scripter-engine-1.2.jar
+2021-04-23 23:14:07:608 +0200 [Thread-115] [WARN] com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+2021-04-23 23:14:30:666 +0200 [Thread-115] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\Results\TestDesign\OrangeHRM\EditInfo\23-apr-2021 23-14-07\summary.html
+2021-04-23 23:14:30:667 +0200 [Thread-115] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\Results\TestDesign\OrangeHRM\EditInfo\23-apr-2021 23-14-07\summary.html]
+2021-04-23 23:15:42:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\TestLab\NewRelease Renamed to Release
+2021-04-23 23:16:24:04S +0200 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\TestLab\Release\NewTestSet.csv Renamed to Set1.csv
+2021-04-23 23:17:36:04S +0200 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\LA56QS\CITS-Bootcamp\lib\cognizant-intelligent-test-scripter-engine-1.2.jar
+2021-04-23 23:17:36:135 +0200 [Thread-157] [INFO] com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for the testset
+2021-04-23 23:17:50:622 +0200 [Thread-157] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\Results\TestExecution\Release\Set1\23-apr-2021 23-17-36\summary.html
+2021-04-23 23:17:50:622 +0200 [Thread-157] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\Results\TestExecution\Release\Set1\23-apr-2021 23-17-36\summary.html]
+2021-04-23 23:18:06:04S +0200 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\Users\LA56QS\CITS-Bootcamp\lib\cognizant-intelligent-test-scripter-engine-1.2.jar
+2021-04-23 23:18:06:209 +0200 [Thread-168] [INFO] com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for the testset
+2021-04-23 23:18:28:012 +0200 [Thread-168] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\Results\TestExecution\Release\Set1\23-apr-2021 23-18-06\summary.html
+2021-04-23 23:18:28:013 +0200 [Thread-168] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\Results\TestExecution\Release\Set1\23-apr-2021 23-18-06\summary.html]

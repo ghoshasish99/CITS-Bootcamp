@@ -1,0 +1,143 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.2
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_281
+java.home            : C:\Program Files\Java\jre1.8.0_281
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Apr 23 23:14:07 CEST 2021
+Loading Browser Profile
+Loading RunManager
+[Scenario:OrangeHRM] [TestCase: EditInfo] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Remote Driver
+2021-04-23 23:14:11:04S +0200 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://opensource-demo.orangehrmlive.com/index.php/auth/login | Conditon:  | @23-apr-2021 23:14:11.011
+[DONE]   | Opened Url: https://opensource-demo.orangehrmlive.com/index.php/auth/login
+
+===================================================================================================
+
+Step:2   | Object: Username | Action: Set | Input: @Admin | Conditon:  | @23-apr-2021 23:14:12.012
+Using @name [txtUsername], Object 'Username' Found in 139 ms
+[DONE]   | Entered Text 'Admin' on 'Username'
+
+===================================================================================================
+
+Step:3   | Object: Password | Action: Click | Input:  | Conditon:  | @23-apr-2021 23:14:13.013
+Using @name [txtPassword], Object 'Password' Found in 108 ms
+[DONE]   | Clicking on Password
+
+===================================================================================================
+
+Step:4   | Object: Password | Action: setEncrypted | Input: @YWRtaW4xMjM= Enc | Conditon:  | @23-apr-2021 23:14:14.014
+Using @name [txtPassword], Object 'Password' Found in 114 ms
+[DONE]   | Entered Encrypted Text YWRtaW4xMjM= on Password
+
+===================================================================================================
+
+Step:5   | Object: [Login] Button | Action: Click | Input:  | Conditon:  | @23-apr-2021 23:14:15.015
+Using @name [Submit], Object '[Login] Button' Found in 109 ms
+[DONE]   | Clicking on [Login] Button
+
+===================================================================================================
+
+Step:6   | Object: Welcome Text | Action: assertElementTextContains | Input: @Welcome | Conditon:  | @23-apr-2021 23:14:16.016
+Using @id [welcome], Object 'Welcome Text' Found in 110 ms
+[PASS]   | Welcome Text's Text CONTAINS Welcome 
+
+===================================================================================================
+
+2021-04-23 23:14:18:04S +0200 [INFO] org.openqa.selenium.remote.ErrorCodes toStatus:HTTP Status: '404' -> incorrect JSON status mapping for 'no such alert' (400 expected)
+Step:1   | Object: My Info | Action: Click | Input:  | Conditon:  | @23-apr-2021 23:14:20.020
+Using @relative_xpath [//*[normalize-space(text())='My Info']], Object 'My Info' Found in 124 ms
+[DONE]   | Clicking on My Info
+
+===================================================================================================
+
+Step:2   | Object: Edit | Action: Click | Input:  | Conditon:  | @23-apr-2021 23:14:21.021
+Using @id [btnSave], Object 'Edit' Found in 124 ms
+[DONE]   | Clicking on Edit
+
+===================================================================================================
+
+Step:3   | Object: [Nationality] Dropdown | Action: selectByVisibleText | Input: Info:Nationality | Conditon:  | @23-apr-2021 23:14:22.022
+Using @name [personal[cmbNation]], Object '[Nationality] Dropdown' Found in 112 ms
+[DONE]   | Item/s 'Indian' is/are selected from list [Nationality] Dropdown
+
+===================================================================================================
+
+Step:4   | Object: First Name | Action: Set | Input: Info:Name | Conditon:  | @23-apr-2021 23:14:23.023
+Using @name [personal[txtEmpFirstName]], Object 'First Name' Found in 110 ms
+[DONE]   | Entered Text 'Ashish' on 'First Name'
+
+===================================================================================================
+
+Step:5   | Object: Middle Name | Action: Click | Input:  | Conditon:  | @23-apr-2021 23:14:24.024
+Using @name [personal[txtEmpMiddleName]], Object 'Middle Name' Found in 107 ms
+[DONE]   | Clicking on Middle Name
+
+===================================================================================================
+
+Step:6   | Object: Middle Name | Action: clear | Input:  | Conditon:  | @23-apr-2021 23:14:24.024
+Using @name [personal[txtEmpMiddleName]], Object 'Middle Name' Found in 103 ms
+[DONE]   | Cleared Text on 'Middle Name'
+
+===================================================================================================
+
+Step:7   | Object: Last Name | Action: Click | Input:  | Conditon:  | @23-apr-2021 23:14:25.025
+Using @name [personal[txtEmpLastName]], Object 'Last Name' Found in 114 ms
+[DONE]   | Clicking on Last Name
+
+===================================================================================================
+
+Step:8   | Object: Last Name | Action: Set | Input: Info:LastName | Conditon:  | @23-apr-2021 23:14:26.026
+Using @name [personal[txtEmpLastName]], Object 'Last Name' Found in 105 ms
+[DONE]   | Entered Text 'Ghosh' on 'Last Name'
+
+===================================================================================================
+
+Step:9   | Object: Save | Action: Click | Input:  | Conditon:  | @23-apr-2021 23:14:27.027
+Using @id [btnSave], Object 'Save' Found in 106 ms
+[DONE]   | Clicking on Save
+
+===================================================================================================
+
+Step:1   | Object: Welcome Text | Action: Click | Input:  | Conditon:  | @23-apr-2021 23:14:28.028
+Using @id [welcome], Object 'Welcome Text' Found in 109 ms
+[DONE]   | Clicking on Welcome Text
+
+===================================================================================================
+
+Step:2   | Object: Logout | Action: Click | Input:  | Conditon:  | @23-apr-2021 23:14:29.029
+Using @link_text [Logout], Object 'Logout' Found in 183 ms
+[DONE]   | Clicking on Logout
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : OrangeHRM:EditInfo
+Executed Steps       : 17
+Passed Steps         : 17
+Failed Steps         : 0
+Time Taken           : 00:00:22
+-----------------------------------------------------
+
+Run Finished on Fri Apr 23 23:14:30 CEST 2021
+-----------------------------------------------------
+ExecutionDate        : 23-apr-2021 23-14-07
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:23
+ReportPath           : file:///C:\Users\LA56QS\CITS-Bootcamp\Projects\Bootcamp1\Results\TestDesign\OrangeHRM\EditInfo\23-apr-2021 23-14-07\summary.html
+-----------------------------------------------------

@@ -1,0 +1,7 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://opensource-demo.orangehrmlive.com/index.php/auth/login,,
+2,Username,Enter the value [<Data>] in the Field [<Object>],Set,@Admin,,OrangeHRM
+3,Password,"Click the [<Object>] ",Click,,,OrangeHRM
+4,Password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@YWRtaW4xMjM= Enc,,OrangeHRM
+5,[Login] Button,"Click the [<Object>] ",Click,,,OrangeHRM
+6,Welcome Text,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,@Welcome,,OrangeHRM

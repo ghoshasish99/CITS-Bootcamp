@@ -1,0 +1,17 @@
+#Created
+#Fri Apr 23 22:42:05 CEST 2021
+logfile=log.txt
+loadRecentProject=true
+maxFileSize=4.5
+defaultWaitTime=10
+dateTimeFormat=yyyy-MM-dd HH\:mm\:ss\:SSS Z
+addonPort=8887
+theme=Sapphire
+defaultLogLevel=INFO
+showDateTime=true
+helpdoc=https\://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc
+logBackupLoc=backup/log
+themes=Amethyst,Coral,Pearl,Sapphire
+harPort=11234
+elementWaitTime=10
+standaloneReport=false

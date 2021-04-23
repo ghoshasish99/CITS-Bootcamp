@@ -1,0 +1,148 @@
+<Root type="OR" ref="Bootcamp1">
+  <Page title="OrangeHRM" ref="OrangeHRM">
+    <ObjectGroup ref="Username">
+      <Object frame="" ref="Username">
+        <Property value="txtUsername" ref="name" pref="1"/>
+        <Property value="txtUsername" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='txtUsername']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[3]/div[2]/div[2]/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#txtUsername" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object frame="" ref="Password">
+        <Property value="txtPassword" ref="name" pref="1"/>
+        <Property value="txtPassword" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='txtPassword']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[3]/div[2]/div[2]/form/div[3]/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#txtPassword" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="[Login] Button">
+      <Object frame="" ref="[Login] Button">
+        <Property value="Submit" ref="name" pref="1"/>
+        <Property value="btnLogin" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='LOGIN']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[3]/div[2]/div[2]/form/div[5]/input" ref="xpath" pref="5"/>
+        <Property value="button hover" ref="class" pref="6"/>
+        <Property value="#btnLogin" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Welcome Text">
+      <Object frame="" ref="Welcome Text">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="welcome" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/a[2]" ref="xpath" pref="5"/>
+        <Property value="panelTrigger" ref="class" pref="6"/>
+        <Property value="#welcome" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="My Info">
+      <Object frame="" ref="My Info">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='My Info']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/ul/li[6]/a/b" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#menu_pim_viewMyDetails > b" ref="css" pref="7"/>
+        <Property value="b" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Edit">
+      <Object frame="" ref="Edit">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="btnSave" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//input[@value='Edit'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[3]/div/div[2]/div[2]/form/fieldset/p/input" ref="xpath" pref="5"/>
+        <Property value="hover" ref="class" pref="6"/>
+        <Property value="#btnSave" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="[Nationality] Dropdown">
+      <Object frame="" ref="[Nationality] Dropdown">
+        <Property value="personal[cmbNation]" ref="name" pref="1"/>
+        <Property value="personal_cmbNation" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//select[@name='personal[cmbNation]']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[3]/div/div[2]/div[2]/form/fieldset/ol[3]/li[3]/select" ref="xpath" pref="5"/>
+        <Property value="editable valid" ref="class" pref="6"/>
+        <Property value="#personal_cmbNation" ref="css" pref="7"/>
+        <Property value="select-one" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="First Name">
+      <Object frame="" ref="First Name">
+        <Property value="personal[txtEmpFirstName]" ref="name" pref="1"/>
+        <Property value="personal_txtEmpFirstName" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@title='First Name']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[3]/div/div[2]/div[2]/form/fieldset/ol/li/ol/li/input)[1]" ref="xpath" pref="5"/>
+        <Property value="block default editable" ref="class" pref="6"/>
+        <Property value="#personal_txtEmpFirstName" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Middle Name">
+      <Object frame="" ref="Middle Name">
+        <Property value="personal[txtEmpMiddleName]" ref="name" pref="1"/>
+        <Property value="personal_txtEmpMiddleName" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@title='Middle Name']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[3]/div/div[2]/div[2]/form/fieldset/ol/li/ol/li[2]/input" ref="xpath" pref="5"/>
+        <Property value="block default editable" ref="class" pref="6"/>
+        <Property value="#personal_txtEmpMiddleName" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Last Name">
+      <Object frame="" ref="Last Name">
+        <Property value="personal[txtEmpLastName]" ref="name" pref="1"/>
+        <Property value="personal_txtEmpLastName" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@title='Last Name']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[3]/div/div[2]/div[2]/form/fieldset/ol/li/ol/li[3]/input" ref="xpath" pref="5"/>
+        <Property value="block default editable" ref="class" pref="6"/>
+        <Property value="#personal_txtEmpLastName" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Save">
+      <Object frame="" ref="Save">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="btnSave" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@value='Save']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[3]/div/div[2]/div[2]/form/fieldset/p/input" ref="xpath" pref="5"/>
+        <Property value="hover" ref="class" pref="6"/>
+        <Property value="#btnSave" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Logout">
+      <Object frame="" ref="Logout">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Logout" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Logout')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[10]/ul/li[2]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html.fontawesome-i2svg-active.fontawesome-i2svg-complete > body > #wrapper > #branding > #welcome-menu > ul > li:nth-of-type(1) > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>
