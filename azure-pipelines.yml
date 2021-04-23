@@ -18,6 +18,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-       PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(ProjectLocation)/Results/TestExecution/$(ReleaseName)/$(TestSetName)'
+       PathtoPublish: './$(ProjectLocation)/Results/TestExecution/$(ReleaseName)/$(TestSetName)'
        ArtifactName: 'drop'
        publishLocation: 'Container'
